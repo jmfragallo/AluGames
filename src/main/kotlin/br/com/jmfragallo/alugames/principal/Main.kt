@@ -12,7 +12,7 @@ fun main() {
     val busca = leitura.nextLine()
 
     val buscaApi = ConsulmoApi()
-   val informacaoJogo = buscaApi.buscaJogo(busca)
+    val informacaoJogo = buscaApi.buscaJogo(busca)
 
     var novoJogo: Jogo? = null
 
